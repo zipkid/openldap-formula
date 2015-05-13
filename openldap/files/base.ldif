@@ -1,0 +1,7 @@
+dn: {{ ldap['base'] }}
+objectClass: dcObject
+objectClass: top
+objectClass: locality
+objectClass: gosaDepartment
+ou: {{ ldap['dc_name'] }}
+description: {{ ldap['dc_name'] }}
